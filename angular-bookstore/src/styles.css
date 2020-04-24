@@ -1,3 +1,6 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 @font-face{
     font-family: 'Roboto Mono';
     src: url(/assets/fonts/Roboto_Mono/Roboto_Mono-Regular.ttf) format("truetype"); 
@@ -6,3 +9,29 @@
 h1{
     font-family: 'Roboto Mono' ;
 }
+
+body {
+    padding-top: 56px;
+  }
+
+  body, html{
+      height: 100%;
+  }
+
+  .footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 251, 251);
+  color: rgb(12, 8, 8);
+  text-align: center;
+  }
+  .wrapper{
+      min-height: 100%;
+      position: relative;
+  }
+
+  .content{
+      padding-bottom: 100%;
+  }
